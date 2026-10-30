@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="400" viewBox="0 0 320 400">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1DCA0"/>
+      <stop offset="40%" stop-color="#CDA64E"/>
+      <stop offset="100%" stop-color="#8E6A28"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#gold)">
+    <!-- bead / leaf tick rings that follow the oval -->
+    <ellipse cx="160" cy="200" rx="132" ry="166" stroke-width="11" stroke-dasharray="2 13" opacity=".8"/>
+    <ellipse cx="160" cy="200" rx="124" ry="157" stroke-width="4" stroke-dasharray="1.5 9"/>
+    <!-- main gilt band -->
+    <ellipse cx="160" cy="200" rx="117" ry="148" stroke-width="3"/>
+    <ellipse cx="160" cy="200" rx="112" ry="143" stroke-width="6"/>
+    <ellipse cx="160" cy="200" rx="105" ry="135" stroke-width="2"/>
+  </g>
+  <g fill="url(#gold)" stroke="none">
+    <!-- top crest -->
+    <path d="M160 40 C156 52 156 60 160 66 C164 60 164 52 160 40 Z"/>
+    <path d="M160 60 C140 56 126 44 130 30 C136 41 152 49 160 56 Z"/>
+    <path d="M160 60 C180 56 194 44 190 30 C184 41 168 49 160 56 Z"/>
+    <circle cx="160" cy="35" r="3.2"/>
+    <!-- bottom crest -->
+    <path d="M160 360 C156 348 156 340 160 334 C164 340 164 348 160 360 Z"/>
+    <path d="M160 340 C140 344 126 356 130 370 C136 359 152 351 160 344 Z"/>
+    <path d="M160 340 C180 344 194 356 190 370 C184 359 168 351 160 344 Z"/>
+    <circle cx="160" cy="365" r="3.2"/>
+    <!-- side scrolls -->
+    <path d="M43 200 C30 192 22 196 22 206 C31 204 38 205 47 209 Z"/>
+    <path d="M277 200 C290 192 298 196 298 206 C289 204 282 205 273 209 Z"/>
+  </g>
+</svg>

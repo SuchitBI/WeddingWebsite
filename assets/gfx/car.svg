@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="180" viewBox="0 0 420 180">
+  <g fill="none" stroke="#E8CE8A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- body -->
+    <path d="M28 132
+             L28 116
+             C28 104 36 98 50 96
+             L108 90
+             C120 78 134 66 156 60
+             C196 50 256 50 292 62
+             C312 70 326 82 338 96
+             L372 102
+             C388 106 394 116 394 128
+             L394 132"/>
+    <!-- lower sill between wheels -->
+    <path d="M96 134 L150 134 M250 134 L330 134"/>
+    <path d="M28 132 L70 132 M122 132 L210 132 M300 132 L394 132"/>
+    <!-- roof / cabin windows -->
+    <path d="M132 70 C150 60 184 56 210 56 C242 56 270 60 300 70"/>
+    <path d="M210 56 L210 88 M170 60 L160 88 M252 58 L266 88"/>
+    <path d="M120 88 L324 88"/>
+    <!-- door + trim -->
+    <path d="M210 96 L210 124" stroke-width="1.6"/>
+    <path d="M70 108 L150 106 M250 106 L360 104" stroke-width="1.4" opacity="0.8"/>
+    <!-- headlight + grille + bumpers -->
+    <circle cx="372" cy="112" r="6"/>
+    <path d="M388 116 L398 116 M388 124 L400 124" stroke-width="1.6"/>
+    <path d="M24 124 L24 134 M396 124 L396 134"/>
+    <!-- wheels -->
+    <circle cx="108" cy="134" r="30"/>
+    <circle cx="108" cy="134" r="13"/>
+    <circle cx="304" cy="134" r="30"/>
+    <circle cx="304" cy="134" r="13"/>
+    <g stroke-width="1.4" opacity="0.85">
+      <path d="M108 121 L108 147 M95 134 L121 134 M99 125 L117 143 M117 125 L99 143"/>
+      <path d="M304 121 L304 147 M291 134 L317 134 M295 125 L313 143 M313 125 L295 143"/>
+    </g>
+    <!-- little luggage/garland flourish on roof -->
+    <path d="M196 50 C200 42 220 42 224 50" stroke-width="1.6"/>
+    <circle cx="210" cy="46" r="2.4" fill="#E8CE8A" stroke="none"/>
+  </g>
+</svg>
